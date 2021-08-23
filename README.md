@@ -5,8 +5,8 @@ The first Recognition algorithm implemented is Eigen Face. We collected the data
 preprocessed the data we collected. The pictures were cropped and resized appropriately so
 they can be fed to the algorithm.
 
-1. Eigen Face Algorithm
-## Generated Mean image from our dataset
+## Eigen Face Algorithm
+### Generated Mean image from our dataset
 ![alt text](https://github.com/DiboraHaile/EigenFisherFaces/blob/main/images/mean.jpg?raw=true)
 
 After finding the reduced eigenvectors, we create the projection of our image space. To classify
@@ -16,7 +16,7 @@ and find out the class it belongs to. The accuracy of this model is 87.
 
 ![alt text](https://github.com/DiboraHaile/EigenFisherFaces/blob/main/images/eigenfaceresult.png?raw=true)
 
-2. Fisher Face Algorithm
+## Fisher Face Algorithm
 After calculating the mean face from the dataset and then the mean of each class. We then
 calculated PCA since the number of images in the database is greater than the dimension of the
 images. We used the PCA implementation used for eigenfaces to reduce the dimensions. We
